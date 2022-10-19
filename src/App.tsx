@@ -65,7 +65,7 @@ export function App() {
           </Text>
         </label>
 
-        <Button type="submit" className="mt-4">
+        <Button type="submit" className="mt-4" color="error" variant="outlined">
           Login to platform
         </Button>
       </form>
