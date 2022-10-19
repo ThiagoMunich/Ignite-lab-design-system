@@ -5,8 +5,8 @@ interface LogoPropos extends SVGAttributes<HTMLOrSVGElement> {}
 export function Logo(props: LogoPropos) {
   return (
     <svg
-      width="256px"
-      height="256px"
+      width={106}
+      height={120}
       viewBox="0 -14 256 256"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMidYMid"
