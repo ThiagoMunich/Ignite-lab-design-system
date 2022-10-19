@@ -6,7 +6,7 @@ export default {
   title: "Components/Button",
   component: Button,
   args: {
-    children: "Default Button",
+    children: "Login to platform",
     color: "primary",
   },
   argTypes: {
