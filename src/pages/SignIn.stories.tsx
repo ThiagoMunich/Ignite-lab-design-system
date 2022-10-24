@@ -38,7 +38,7 @@ export const Default: StoryObj = {
     userEvent.click(canvas.getByRole("button"))
 
     await waitFor(() => {
-      expect(canvas.getByText("You logged in!")).toBeInTheDocument()
+      return expect(canvas.getByText("You logged in!")).toBeInTheDocument()
     })
   },
 }
