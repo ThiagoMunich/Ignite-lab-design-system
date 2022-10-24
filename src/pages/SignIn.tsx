@@ -2,6 +2,8 @@ import { FormEvent, useState } from "react"
 
 import axios from "axios"
 
+import { rest } from "msw"
+
 import { Envelope, Lock } from "phosphor-react"
 
 import { Logo } from "../Icons/Logo"
@@ -30,6 +32,12 @@ export function SignIn() {
     })
 
     setIsUserSignedIn(true)
+  }
+
+  function disableSignInButton() {
+    if (!user.email || !user.password) return true
+
+    return false
   }
 
   return (
@@ -94,7 +102,7 @@ export function SignIn() {
           </Text>
         </label>
 
-        <Button type="submit" className="mt-4">
+        <Button type="submit" className="mt-4" disabled={disableSignInButton()}>
           Login to platform
         </Button>
       </form>
