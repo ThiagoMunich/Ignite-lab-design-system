@@ -26,6 +26,6 @@ The storybook is hosted at github pages and you can check it out [here](https://
 - [Jest](https://jestjs.io/pt-BR/)
 - [MSW](https://mswjs.io/)
 
-### Extras
+## ✔️ Extras
  - I changed the application to english language.
  - I created some other versions of the button component and I documented it on storybook.
