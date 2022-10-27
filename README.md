@@ -27,5 +27,6 @@ The storybook is hosted at github pages and you can check it out [here](https://
 - [MSW](https://mswjs.io/)
 
 ## ✔️ Extras
+ - "Login to platform" button disabled if info weren't fulfilled.
  - I changed the application to english language.
  - I created some other versions of the button component and I documented it on storybook.
